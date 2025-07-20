@@ -453,6 +453,8 @@ body {
             transform: scale(0.8);
             transition: transform 0.3s ease;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            scrollbar-width: thin;
+            scrollbar-color: #8f8f8f #f1f1f1;
         }
 
         .popup-overlay.active .popup-content {
@@ -483,7 +485,7 @@ body {
             border: none;
             font-size: 30px;
             cursor: pointer;
-            color: #666;
+            color: #7a7a7a;
             transition: color 0.3s ease;
         }
 

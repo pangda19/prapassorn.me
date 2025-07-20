@@ -191,9 +191,12 @@
             work4: {
                 title: "Graphic Design",
                 subtitle: "Collect artwork from various works that have been done.",
-                image: "",
-                description: "การออกแบบตัวตนแบรนด์ที่สมบูรณ์ ตั้งแต่โลโก้ สีสัน ฟอนต์ และแนวทางการใช้งานที่สอดคล้องกับวิสัยทัศน์ของแบรนด์",
-                tags: ["Adobe Illustrator", "Photoshop", "Brand Strategy", "Logo Design"]
+                images: [
+                    "https://img5.pic.in.th/file/secure-sv1/Bkk.gif",
+                    "https://img2.pic.in.th/pic/gf1.jpg", 
+                ],
+                description: "I work on a variety of general design tasks, including banners and posters for social media, as well as brand logo improvements. In addition, I spend most of my free time creating infographics about topics I'm interested in.",
+                tags: ["Adobe Illustrator", "Adobe Photoshop", "Figma"]
             },
             work5: {
                 title: "DoDee Website",
