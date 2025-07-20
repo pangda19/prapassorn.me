@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Desktop Navigation -->
+    <nav class="navigation">
+        <ul>
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#work" class="nav-link">Work</a></li>
+        </ul>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav">
+        <button class="mobile-nav-toggle">☰</button>
+        <ul class="mobile-nav-menu">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#work" class="nav-link">Work</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section id="home" class="section hero">
+        <div class="section-content">
+            <h1>Prapassorn Portfolio</h1>
+                    <p>UX/UI Designer with over 9 years of experience in graphic design, and a strong focus on creating websites and mobile applications.
+                    Skilled in Photoshop, Illustrator, Figma, and Sketch, with a good understanding of HTML, CSS, and basic JavaScript.<br>
+                    <br>
+                    Graduated with a Bachelor’s degree in Art Education from Chulalongkorn University in Bangkok, Thailand. and had the chance to spend 1.5 years studying Japanese in the town of Higashikawa, Hokkaido.
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="section-content">
+            <div class="about-content">
+                <div class="about-text tooltip-container">
+                    <h2>About Me</h2>
+                    <p>Work Experience<br>
+                        2013 – <span class="grey">Creative Graphic Designer at IMPACT Exhibition Management Co., Ltd.</span>
+                        <br>
+                        2014 – <span class="grey">Digital Graphic Designer at Bookdose Co., Ltd.</span>
+                        <br>
+                        2018 – <span class="grey">UX/UI Designer at Tencent (Thailand) Company Limited</span>
+                        <br>
+                        2022 – <span class="grey">UX/UI Designer at EVENTTHA</span>
+                        <br>
+                        2023 – <span class="grey">Studied Japanese at Fukushi Senmon Gakko in Hokkaido and hold a JLPT N3 certificate</span>
+                        <br>
+                        2025 – <span class="grey">Product Designer at Harborland</span>
+                        <br>
+                        Present – <span class="grey">Freelance Designer and UX/UI Specialist<br></span>
+                        <br>
+                        Passionate about art, Japanese graphic design, and Japanese culture. I also enjoy coffee, love baking bread, and am a cat lover.
+                    </p>
+                    <div class="tooltip-box">
+                        <h3>私について</h3>
+                        <p>
+                        UX/UIデザイナーとして、グラフィックデザインに9年以上の経験があります。
+                        ウェブとアプリの設計に注力しています。
+                        北海道で1年半日本語を学びました。
+                        <br>
+                        コーヒーと猫が好きですが、櫻坂46と推しが一番好きです。
+                        </p>
+                    </div>
+                </div>
+                <div class="about-image">
+                <img src="image/wait_fast.jpg" alt="รูปถ่ายของฉัน" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--text slide-->
+        <div class="textslide">
+        <div class="textslide-track">
+            <h1>コンサートに行く資金を稼ぐために働いています ☜ あと、猫さまのごはん代のためにも ☜ バディーズ フルタイム ☜</h1>
+            <h1>コンサートに行く資金を稼ぐために働いています ☜ あと、猫さまのごはん代のためにも ☜ バディーズ フルタイム ☜</h1>
+            <h1>コンサートに行く資金を稼ぐために働いています ☜ あと、猫さまのごはん代のためにも ☜ バディーズ フルタイム ☜</h1>
+        </div>
+        </div>
+
+    <!-- Work Section -->
+    <section id="work" class="section work">
+    <div class="section-content">
+        <h2>WORK</h2>
+        <div class="work-grid">
+        <div class="work-item item1">
+            <a href="https://example.com/project1" target="_blank" rel="noopener noreferrer">
+                <img src="image/banner_work1.jpg" alt="Project 1 Image">
+            </a>
+            <div class="overlay-text">Mobile Network Cloud Website and Catalog</div>
+            <button class="detail-btn" onclick="openPopup('work1')">Detail ></button>
+        </div>
+        <div class="work-item item2">
+            <a href="https://example.com/project1" target="_blank" rel="noopener noreferrer">
+                <img src="image/banner_work2.jpg" alt="Project 2 Image">
+            </a>
+            <div class="overlay-text">Elegant Decor Website</div>
+            <button class="detail-btn" onclick="openPopup('work2')">Detail ></button>
+        </div>
+        <div class="work-item item3">
+            <a href="https://example.com/project1" target="_blank" rel="noopener noreferrer">
+                <img src="image/banner_work3.gif" alt="Project 3 Image">
+            </a>
+            <div class="overlay-text">Candle Walk Microsite</div>
+            <button class="detail-btn" onclick="openPopup('work3')">Detail ></button>
+        </div>
+        <div class="work-item item4">
+            <a href="https://example.com/project1" target="_blank" rel="noopener noreferrer">
+                <img src="image/banner_work4.jpg" alt="Project 4 Image">
+            </a>
+            <div class="overlay-text">Graphic Works</div>
+            <button class="detail-btn" onclick="openPopup('work4')">Detail ></button>
+        </div>
+        <div class="work-item item5">
+            <a href="https://example.com/project1" target="_blank" rel="noopener noreferrer">
+                <img src="image/banner_work5.jpg" alt="Project 5 Image">
+            </a>
+            <div class="overlay-text">Doodee Website</div>
+            <button class="detail-btn" onclick="openPopup('work5')">Detail ></button>
+        </div>
+        <div class="work-item item6">
+            <a href="https://example.com/project1" target="_blank" rel="noopener noreferrer">
+                <img src="image/banner_work6.jpg" alt="Project 6 Image">
+            </a>
+            <div class="overlay-text">Sanook Application</div>
+            <button class="detail-btn" onclick="openPopup('work6')">Detail ></button>
+        </div>
+        <div class="work-item item7">
+            <a href="https://example.com/project1" target="_blank" rel="noopener noreferrer">
+                <img src="image/banner_work7.jpg" alt="Project 7 Image">
+            </a>
+            <div class="overlay-text">Various Animal</div>
+            <button class="detail-btn" onclick="openPopup('work7')">Detail ></button>
+        </div>
+        <div class="work-item item8">
+            <a href="https://example.com/project1" target="_blank" rel="noopener noreferrer">
+                <img src="image/banner_work8.jpg" alt="Project 8 Image">
+            </a>
+            <div class="overlay-text">JOOX TV</div>
+            <button class="detail-btn" onclick="openPopup('work8')">Detail ></button>
+        </div>
+        </div>
+        <div class="context-text">
+            <p>Contact: <a href="mailto:prapassorn.umthong@gmail.com">prapassorn.umthong@gmail.com</a></p>
+        </div>
+    </div>
+    </section>
+    
+    <!-- Pop-up Template -->
+        <div id="popup" class="popup-overlay" onclick="closePopup(event)">
+            <div class="popup-content" onclick="event.stopPropagation()">
+                <div class="popup-header">
+                    <button class="popup-close" onclick="closePopup()">&times;</button>
+                    <h3 id="popup-title">Project Title</h3>
+                    <p id="popup-subtitle">Project Description</p>
+                </div>
+                
+                <!-- สำหรับภาพเดียว -->
+                <img id="popup-image" class="popup-single-image" alt="">
+                
+                <!-- สำหรับหลายภาพ -->
+                <div id="popup-image-container" class="popup-images-container" style="display: none;">
+                    <!-- ภาพจะถูกใส่ที่นี่ด้วย JavaScript -->
+                </div>
+                
+                <div class="popup-body">
+                    <h4>Project Details</h4>
+                    <p id="popup-description"></p>
+                    
+                    <h4>Tools & Software</h4>
+                    <div id="popup-tags" class="popup-tags"></div>
+                    <div id="popup-links" class="popup-links"></div>
+                </div>
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
