@@ -192,7 +192,7 @@
                 title: "Graphic Design",
                 subtitle: "Collect artwork from various works that have been done.",
                 images: [
-                    "https://img5.pic.in.th/file/secure-sv1/Bkk.gif",
+                    "https://img2.pic.in.th/pic1e9d72e9281131dc4.png",
                     "https://img2.pic.in.th/pic/gf1.jpg", 
                 ],
                 description: "I work on a variety of general design tasks, including banners and posters for social media, as well as brand logo improvements. In addition, I spend most of my free time creating infographics about topics I'm interested in.",
