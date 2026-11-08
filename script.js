@@ -228,13 +228,13 @@
                 description: "A Thesis Submitted in Partial Fulfillment of the Requirements for the Bachelor of Education Degree Department of Art Education, Department of Art, Music and Dance Studies, Faculty of Education, Chulalongkorn University (Academic year 2012). I was inspired by the similarities and differences among animal types, to design a wooden toy under the topic “various animals” for children aged 7 and up, these toys allow kids to assemble different animal parts, showcasing the diversity of the animal kingdom while emphasizing their shared characteristics.",
                 tags: ["Adobe Photoshop"]
             },
-            work8: {
-                title: "JOOX TV",
-                subtitle: "Participated in Tencent's 2019 Hackathon as the team’s designer and contributed to winning an award.",
-                image: "https://img5.pic.in.th/file/secure-sv1/4c45562ec7b57fa6b.jpg",
-                description: "JOOX Application Design for Television. I worked with members from different team in the company to compete in the Hackathon#6. I've designed an interface on a larger scale than mobile and desktop and was 1 of 5 winning projects.",
-                tags: ["Adobe Photoshop", "Adobe XD"]
-            }
+        work8: {
+            title: "LINE Marketing Management Platform",
+            subtitle: "Identified workflow problems and created an internal LINE marketing tool using AI-assisted development.",
+            image: "https://i.postimg.cc/h4zBdq1b/789.jpg",
+            description: "An internal LINE marketing platform created to improve daily marketing operations. I identified problems in the existing workflow, planned practical solutions, and used OpenAI Codex to help build the system. My focus was on improving usability, simplifying workflows, and testing the system to better support the team's needs.",
+            tags: ["UX/UI", "Problem Solving", "Workflow Design", "OpenAI Codex"]
+           }
         };
 
         function openPopup(workId) {
