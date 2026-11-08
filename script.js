@@ -202,9 +202,7 @@
                 title: "DoDee Website",
                 subtitle: "Website design for DoDee Paidang Restaurant Australia and its affiliated branches",
                 images: [
-                    "https://img2.pic.in.th/pic/dd1.gif",
-                    "https://img5.pic.in.th/file/secure-sv1/DD123.jpg", 
-                    "https://img5.pic.in.th/file/secure-sv1/ks19870d62e4cff979.gif"
+                    "https://img2.pic.in.th/pic/dd1.gif"
                 ],
                 description: "Designed the website for DoDee restaurant and its affiliated branches in Australia, focusing on user-friendly UX/UI optimized for mobile screens. Used vibrant colors and incorporated food photography to create an engaging visual experience.",
                 tags: ["Adobe Illustrator", "Adobe Photoshop", "Figma"],
