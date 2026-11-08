@@ -171,7 +171,7 @@
             work2: {
                 title: "Elegant Decor Website",
                 subtitle: "Business Website",
-                image: "https://img5.pic.in.th/file/secure-sv1/F_G_Edit_ed_home2_2.jpg",
+                image: "https://i.postimg.cc/pT8M3fTq/2.jpg",
                 description: "Designed a website for the tile business Elegant Decor, focusing on a clean, luxurious, and user-friendly interface to reflect the brand's premium image. The website showcases high-quality decorative materials such as marble tiles, natural stone, wood collections, and outdoor anti-slip surfaces. It includes key sections like product highlights, past projects, blog updates, and a contact map, along with a catalog download feature to enhance user convenience.",
                 tags: ["Adobe Illustrator", "Adobe Photoshop", "Sketch App"]
             },
