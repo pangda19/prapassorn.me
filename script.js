@@ -231,7 +231,7 @@
         work8: {
             title: "LINE Marketing Management Platform",
             subtitle: "Identified workflow problems and created an internal LINE marketing tool using AI-assisted development.",
-            image: "https://i.postimg.cc/h4zBdq1b/789.jpg",
+            image: "https://i.postimg.cc/brCDWfdN/789.jpg",
             description: "An internal LINE marketing platform created to improve daily marketing operations. I identified problems in the existing workflow, planned practical solutions, and used OpenAI Codex to help build the system. My focus was on improving usability, simplifying workflows, and testing the system to better support the team's needs.",
             tags: ["UX/UI", "Problem Solving", "Workflow Design", "OpenAI Codex"]
            }
